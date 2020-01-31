@@ -1,0 +1,50 @@
+# main links
+main:
+  - title: "Setup"
+    url: /docs/setup-guide
+  - title: "Feedback"
+    url: /feedback
+  - title: "About"
+    url: /about
+  - title: "Github"
+    url: https://github.com/teuteuguy/amazon-freertos-m5stickc-workshop
+
+docs:
+  - title: Getting Setup
+    children:
+      - title: "Setup Guide"
+        url: /docs/setup-guide
+
+  - title: Labs
+    url: /labs/
+    children:
+      - title: "Lab 0 - Setup the code"
+        url: /labs/00-setup-the-code
+      - title: "Lab 1 - AWS IoT Button"
+        url: /labs/01-aws-iot-button
+      - title: "Lab 2 - Thing Shadow"
+        url: /labs/02-thing-shadow
+      - title: "Lab 3 - Alexa"
+        url: /labs/03-alexa
+
+  - title: Integrations
+    url: /integrations/
+    children:
+      - title: "Sputnik - AWS IoT Kickstart"
+        url: /integrations/01-aws-iot-kickstart
+
+  - title: Advanced Setup
+    children:
+      - title: "Local Setup"
+        url: /docs/local-setup-guide
+      - title: "Facilitate your own workshop"
+        url: /docs/facilitate-workshop-guide
+
+  - title: Meta
+    children:
+      - title: "Contributing"
+        url: /contributing
+      - title: "License"
+        url: /license
+      - title: "Feedback"
+        url: /feedback

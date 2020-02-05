@@ -2,7 +2,9 @@ iot:
   thing-name            : "MyThing"
 
 code:
-  make-dir              : "~/environment/workshop/amazon-freertos/vendors/espressif/boards/m5stickc/aws_demos"
-  build-dir             : "~/environment/workshop/amazon-freertos/vendors/espressif/boards/m5stickc/aws_demos/build"
-  lab-config-file       : "~/environment/workshop/amazon-freertos/vendors/espressif/boards/m5stickc/aws_demos/application_code/m5stickc_lab_config.h"
+  repo                  : "https://github.com/teuteuguy/amazon-freertos-workshop.git"
+  workshop              : "~/environment/workshop"
+  config-files          : "~/environment/workshop/amazon-freertos-configs"
+  build-dir             : "~/environment/workshop/build"
+  lab-config-file       : "~/environment/workshop/include/lab_config.h"
 

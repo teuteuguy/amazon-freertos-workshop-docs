@@ -34,13 +34,13 @@ With:
 ## Rebuild Code
 
 ```bash
-cd {{ site.data.globals['code'].make-dir }}
+cd {{ site.data.globals['code'].workshop }}
 make all -j4
 ```
 
 ## Flash Code
 
-Please follow the same procedure from [Flash the firmware files]({{ "/labs/00-setup-the-code/#flash-the-firmware-files" | relative_url }}).
+Please follow the same procedure from [Flash the firmware files]({{ "/labs/00-setup-the-labs/#flash-the-firmware-files" | relative_url }}).
 
 ## Result
 

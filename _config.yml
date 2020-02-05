@@ -16,15 +16,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Amazon FreeRTOS M5StickC Workshop"
+title                    : "Amazon FreeRTOS Workshop"
 title_separator          : "-"
-subtitle                 : "Labs for everyone using Amazon FreeRTOS on the M5StickC" # site tagline that appears below site title in masthead
+subtitle                 : "Labs for everyone using Amazon FreeRTOS" # site tagline that appears below site title in masthead
 name                     : "teuteuguy"
 description              : "A:FR Labs"
 port                     : 4200
 url                      : "https://teuteuguy.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/afmw-docs" # the subpath of your site, e.g. "/blog"
-repository               : "teuteuguy/afmw-docs" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+baseurl                  : "/amazon-freertos-workshop-docs" # the subpath of your site, e.g. "/blog"
+repository               : "teuteuguy/amazon-freertos-workshop-docs" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/512px-amazon_web_services_logo.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/102px-amazon_web_services_logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -158,7 +158,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/teuteuguy/amazon-freertos-m5stickc-workshop"
+      url: "https://github.com/teuteuguy/amazon-freertos-workshop"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:

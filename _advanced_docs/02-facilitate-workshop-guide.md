@@ -20,7 +20,8 @@ The following guide will help you be a workshop facilitator for multiple student
 
 Obviously, running in your account will consume AWS resources, and your account limits (for EC2) may need to be raised for your students to be able to run the workshop.
 
-Also, the labs require having access to M5StickC devices. You can order them from M5Stack, here: [https://m5stack.com/collections/m5-core/products/stick-c](https://m5stack.com/collections/m5-core/products/stick-c).
+Also, the labs require having access devices. 
+Currently the labs use the M5StickC device, which you can order from M5Stack, here: [https://m5stack.com/collections/m5-core/products/stick-c](https://m5stack.com/collections/m5-core/products/stick-c).
 
 # CloudFormation Script
 

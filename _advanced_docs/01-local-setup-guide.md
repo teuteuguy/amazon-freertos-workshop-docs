@@ -10,7 +10,9 @@ toc: true
 toc_label: Contents
 ---
 
-The following guide will help you get setup on your own laptop to run the code for the follwing labs on the M5StickC.
+The following guide will help you get setup on your own laptop.
+
+You will be able to compile and build the code locally for the workshop labs.
 
 **ProTip:** Most of this guide is based on the official Amazon FreeRTOS [documentation](https://docs.aws.amazon.com/freertos/latest/userguide/getting_started_espressif.html). Please refer to that for the single source of truth.
 {: .notice--info}
@@ -148,4 +150,4 @@ printenv PATH
 
 # Next Step
 
-You can go ahead with [Lab 0]({{ '/labs/00-setup-the-code/' | relative_url }})
+You can go ahead with [Lab 0]({{ '/labs/00-setup-the-labs/' | relative_url }})

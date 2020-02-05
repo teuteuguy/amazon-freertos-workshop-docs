@@ -7,7 +7,7 @@ main:
   - title: "About"
     url: /about
   - title: "Github"
-    url: https://github.com/teuteuguy/amazon-freertos-m5stickc-workshop
+    url: https://github.com/teuteuguy/amazon-freertos-workshop
 
 docs:
   - title: Getting Setup
@@ -18,8 +18,8 @@ docs:
   - title: Labs
     url: /labs/
     children:
-      - title: "Lab 0 - Setup the code"
-        url: /labs/00-setup-the-code
+      - title: "Lab 0 - Setup the labs"
+        url: /labs/00-setup-the-labs
       - title: "Lab 1 - AWS IoT Button"
         url: /labs/01-aws-iot-button
       - title: "Lab 2 - Thing Shadow"

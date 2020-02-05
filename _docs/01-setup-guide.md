@@ -4,15 +4,17 @@ layout: single
 sidebar:
   nav: docs
 permalink: "/docs/setup-guide"
-excerpt: How to quickly install and setup the M5StickC Amazon FreeRTOS Labs.
+excerpt: How to quickly install and setup your cloud IDE to run the Amazon FreeRTOS Labs.
 last_modified_at: '2019-11-06 09:53:43 +0800'
 toc: true
 toc_label: Contents
 ---
 
-The following Setup Guide is designed to run the different labs from an [AWS Cloud9 Development ](https://aws.amazon.com/cloud9/)environment.
+The following Setup Guide is designed to help you get up and running quickly for the workshop.
 
-Once you have setup the environment, you will download the binary compiled firmware files, to flash onto your M5StickC from your own laptop.
+For this, we will be using [AWS Cloud9 Development ](https://aws.amazon.com/cloud9/) environment. AWS Cloud9 is a cloud development IDE that we will use to compile and build our Amazon FreeRTOS code.
+
+Once you have setup the environment, you will be able to build and compile the different labs, you will download the binary compiled firmware files, and you will flash your device locally on your laptop.
 
 **ProTip:** You can also follow the [Local Setup Guide]({{ '/docs/local-setup-guide' | relative_url }}) to setup the environment for local development.
 {: .notice--info}
@@ -53,13 +55,6 @@ Open new Terminal window
 
 ## Install ESP32 Toolchain
 
-In the Cloud9 Terminal window install OS utilities needed by the toolchain
-
-```bash
-sudo yum install -y flex gperf
-sudo pip install argparse cryptography serial pyserial cmake
-```
-
 Download the 64-bit version of Xtensa ESP32 toolchain:
 
 ```bash
@@ -77,7 +72,7 @@ tar -xvzf ../../xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz
 Add the toolchain path to **~/.bash_profile** PATH variable
 
 ```bash
-echo "export PATH=\$PATH:\$HOME/environment/esp/xtensa-esp32-elf/bin" >> ~/.bash_profile
+echo "PATH=\$PATH:\$HOME/environment/esp/xtensa-esp32-elf/bin:/usr/local/bin" >> ~/.bash_profile
 ```
 
 Re-evaluate ~/.bash_profile
@@ -85,3 +80,21 @@ Re-evaluate ~/.bash_profile
 ```bash
 source ~/.bash_profile
 ```
+
+## Install dependencies
+
+First update pip
+
+```bash
+sudo pip install --upgrade pip
+```
+
+Now lets install CMAKE and required dependencies for the project:
+
+```bash
+pip install argparse cryptography serial pyserial pyparsing==2.0.3 cmake ninja
+```
+
+## Done
+
+You are done with the IDE setup and are ready to move to [Lab 0 - Setup the Labs]({{ "/labs/00-setup-the-labs" | relative_url }}).

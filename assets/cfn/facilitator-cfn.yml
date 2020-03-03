@@ -265,7 +265,7 @@ Resources:
             # FunctionName: 'workshop-custom-resource-creation'
             Description: 'Custom resource lambda for workshop'
             Handler: index.handler
-            Runtime: nodejs8.10
+            Runtime: nodejs12.x
             Code:
                 ZipFile: |
                     const AWS = require("aws-sdk");

@@ -8,3 +8,16 @@ code:
   build-dir             : "~/environment/workshop/build"
   lab-config-file       : "~/environment/workshop/include/lab_config.h"
 
+lab-config:
+  lab0                  : "LABCONFIG_LAB0_DO_NOTHING"
+  lab1                  : "LABCONFIG_LAB1_AWS_IOT_BUTTON"
+  lab2                  : "LABCONFIG_LAB2_SHADOW"
+  lab4                  : "LABCONFIG_WIFI_PROVISION_VIA_BLE"
+
+device-config:
+  esp32-devkitc         : "DEVICE_ESP32_DEVKITC"
+  m5stickc              : "DEVICE_M5STICKC"
+
+mobile-apps:
+  wifi-prov-ios         : "https://apps.apple.com/app/wifi-provision/id1500121277"
+  wifi-prov-android     : "https://play.google.com/store/apps/details?id=wificonfig.bitinfiniti.com"

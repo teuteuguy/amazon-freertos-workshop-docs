@@ -25,10 +25,10 @@ In file: {{ site.data.globals['code'].lab-config-file }}
 
 ```bash
 Replace:
-#define M5CONFIG_LAB1_AWS_IOT_BUTTON
+#define {{ site.data.globals['lab-config'].lab1 }}
 
 With:
-#define M5CONFIG_LAB2_SHADOW
+#define {{ site.data.globals['lab-config'].lab2 }}
 ```
 
 ## Rebuild Code

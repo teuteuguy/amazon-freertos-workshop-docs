@@ -18,10 +18,10 @@ In file: **{{ site.data.globals['code'].lab-config-file }}**
 
 ```bash
 Replace:
-#define LABCONFIG_LAB0_SETUP
+#define {{ site.data.globals['lab-config'].lab0 }}
 
 With:
-#define LABCONFIG_LAB1_AWS_IOT_BUTTON
+#define {{ site.data.globals['lab-config'].lab1 }}
 ```
 
 ## Rebuild Code
@@ -73,7 +73,7 @@ If you recall when we set up our IoT Policy for our Thing we created it quite op
 
 Reset the device, the device should connect without any problems.
 
-**Note:** if you are using the M5StickC, the side button, just side of the screen can be held for a couple seconds and the device will reboot.
+**Note:** if you are using the M5StickC, there is a side button, pressing this side button will reboot the device.
 {% endcapture %}
 <div id="incomplete-policy-answer" class="notice--info hide">
   {{ incomplete-policy-answer | markdownify }}

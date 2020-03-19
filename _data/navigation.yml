@@ -26,12 +26,8 @@ docs:
         url: /labs/02-thing-shadow
       - title: "Lab 3 - Alexa"
         url: /labs/03-alexa
-
-  - title: Integrations
-    url: /integrations/
-    children:
-      - title: "Sputnik - AWS IoT Kickstart"
-        url: /integrations/01-aws-iot-kickstart
+      - title: "Lab 4 - BLE WiFi Provisioning"
+        url: /labs/04-wifi-provisioning
 
   - title: Advanced Setup
     children:

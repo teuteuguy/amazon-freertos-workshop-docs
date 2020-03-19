@@ -31,6 +31,8 @@ docs:
 
   - title: Advanced Setup
     children:
+      - title: "Supported devices"
+        url: /docs/supported-devices
       - title: "Local Setup"
         url: /docs/local-setup-guide
       - title: "Facilitate your own workshop"

@@ -17,6 +17,7 @@ lab-config:
 device-config:
   esp32-devkitc         : "DEVICE_ESP32_DEVKITC"
   m5stickc              : "DEVICE_M5STICKC"
+  m5stack               : "DEVICE_M5STACK"
 
 mobile-apps:
   wifi-prov-ios         : "https://apps.apple.com/app/wifi-provision/id1500121277"

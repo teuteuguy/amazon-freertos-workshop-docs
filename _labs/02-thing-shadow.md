@@ -35,7 +35,7 @@ With:
 
 ```bash
 cd {{ site.data.globals['code'].workshop }}
-make all -j4
+cmake --build build
 ```
 
 ## Flash Code

@@ -29,7 +29,7 @@ Navigate to **IoT Core** to enter the AWS IoT service
 Follow the below 3 steps to register your thing:
 
 1. Make sure to select the **us-east-1** region
-2. Navigate to **Manager → Things**
+2. Navigate to **Manage → Things**
 3. Click **Create** to start the creation and registration of your device
 
 ![IoT Core 1]({{ "/assets/images/labs/lab-0/iotcore-1.png" | relative_url }})
@@ -344,7 +344,7 @@ esptool.py v2.8-dev
 Once compilation is done, download these 3 files to your local computer:
 
 * **{{ site.data.globals['code'].workshop }}/build/afr_workshop.bin**
-* **{{ site.data.globals['code'].workshop }}/build/partition-table.bin**
+* **{{ site.data.globals['code'].workshop }}/build/partition-table/partition-table.bin**
 * **{{ site.data.globals['code'].workshop }}/build/bootloader/bootloader.bin**
 
 ![download bin files from Cloud9]({{ "/assets/images/labs/lab-0/download.png" | relative_url }})
